@@ -1,3 +1,14 @@
 body{
     background-color: blueviolet;
 }
+nav{
+    display: flex;
+    list-style: none;
+    justify-content: end;
+    gap: 20px;
+}
+nav li{
+    border: 1px solid;
+    padding: 5px;
+    border-radius: 10px;
+}
